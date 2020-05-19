@@ -1,0 +1,55 @@
+.showTable {
+	border-collapse: collapse;
+}
+
+.showtable TD {
+	padding: 0.2em 1em 0.1em 1em;
+}
+
+.header TD {
+	font-weight: bold;
+	text-align: center;
+	font-size: 120%;
+	background-color: #888;
+	color: #fff;
+}
+
+tr.row:nth-child(even) {
+	background-color: #eee;
+}
+
+tr.row:nth-child(odd) {
+	background-color: #ddd;
+}
+
+tr.row td:nth-child(1) {
+	border-right: solid #aaa 1px;
+}
+
+.showtable tr.row td {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.deviceHeader {
+	font-weight: bold;
+	text-align: left;
+	font-size: 110%;
+	background-color: #aaa;
+	color: #fff;
+}
+
+TD.data {
+	font-family: monospace;
+	text-align: justify;
+}
+
+.alert {
+	background-color: yellow;
+	color: #000;
+}
+
+.critical {
+	background-color: red;
+	color: #000;
+}
