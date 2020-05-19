@@ -13,4 +13,4 @@ To start using the script simply run [install.php](install.php) and complete the
 
 After completing the installation process please delete the `install.php`, `install.css`, `mb_str_split.php`, `config_install.php` and `db.sql` files. If you use two host for operation then copy [snmp.php](snmp.php) and `config.php` files to it. You will need to run [snmp.php](snmp.php). To the second host copy `config.php`, [snmp_show.php](snmp_show.php) and [styles.css](styles.css) files. Open [snmp_show.php](snmp_show.php) with browser to watch the result.
 
-I use [https://github.com/debobaher/dbbhInstaller](dbbhInstaller) in this scripts.
+I use [dbbhInstaller](https://github.com/debobaher/dbbhInstaller) in this scripts.
